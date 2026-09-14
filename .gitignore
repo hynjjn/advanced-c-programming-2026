@@ -1,0 +1,10 @@
+# Compiled binaries
+*.o
+*.exe
+*.dSYM/
+
+# Extensionless executables built from .c sources
+wk*/[!.]*
+!wk*/*.c
+!wk*/*.h
+!wk*/*.md
