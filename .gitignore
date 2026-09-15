@@ -3,8 +3,25 @@
 *.exe
 *.dSYM/
 
-# Extensionless executables built from .c sources
+# Extensionless executables built from .c sources (top level of each wk*/ only)
 wk*/[!.]*
+!wk*/*/
 !wk*/*.c
 !wk*/*.h
 !wk*/*.md
+
+# Visual Studio
+.vs/
+[Dd]ebug/
+[Rr]elease/
+Win32/
+x64/
+ARM64/
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.tlog
+*.log
